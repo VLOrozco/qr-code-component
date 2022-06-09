@@ -88,3 +88,9 @@ body, html {
 }
 /* ========================================================================= */
 /* 4. MEDIA QUERY */
+
+@media screen and (min-width: 700px) {
+.card {
+  margin-top: 152px;
+}
+}
