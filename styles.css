@@ -20,8 +20,30 @@ body, html {
 /* ========================================================================= */
 /* 2. TYPOGRAPHY */
 
+.title {
+  font-family: 'Outfit';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 22px;
+  line-height: 28px;
+  text-align: center;
 
+  /* Dark Navy */
+  color: #1F314F;
+}
 
+.description {
+  font-family: 'Outfit';
+  font-style: normal;
+  font-weight: 300;
+  font-size: 15px;
+  line-height: 19px;
+  text-align: center;
+  letter-spacing: 0.1875px;
+
+  /* Grey */
+  color: #7D889E;
+}
 
 /* ========================================================================= */
 /* 3. LAYOUT */
@@ -42,18 +64,27 @@ body, html {
   height: 288px;
   width: 288px;
   border-radius: 10px;
-  margin: 1em 1em 2em 1em;
-
-  z-index: 10;
+  margin: 1em 1em 0.3em 1em;
+  z-index: 1;
 }
 
+.text-box {
+  background-color: pink;
+  height: 129px;
+  width: 288px;
+  margin: 0 1em 40px 1em;
+  
+}
 .title {
-  /* position: relative; */
+  height: 56px;
+  width: 288px;
 }
 
 
 .description {
-  /* position: absolute; */
+  height: 57px;
+  width: 256px;
+  margin: auto;
 }
 /* ========================================================================= */
 /* 4. MEDIA QUERY */
