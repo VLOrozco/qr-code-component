@@ -14,10 +14,8 @@ body, html {
   margin: 0;
   padding: 0;
   width: 100%;
-
-
+  background: #D5E1EF;
 }
-
 
 /* ========================================================================= */
 /* 2. TYPOGRAPHY */
@@ -28,8 +26,34 @@ body, html {
 /* ========================================================================= */
 /* 3. LAYOUT */
 
+.card {
+  position: absolute;
+  width: 320px;
+  height: 497px;
+  left: 28px;
+  top: 85px;
+  background: #FFFFFF;
+  box-shadow: 0px 25px 25px rgba(0, 0, 0, 0.0476518);
+  border-radius: 20px;
+}
+
+.qr-code {
+  position: relative;
+  height: 288px;
+  width: 288px;
+  border-radius: 10px;
+  margin: 1em 1em 2em 1em;
+
+  z-index: 10;
+}
+
+.title {
+  /* position: relative; */
+}
 
 
-
+.description {
+  /* position: absolute; */
+}
 /* ========================================================================= */
 /* 4. MEDIA QUERY */
