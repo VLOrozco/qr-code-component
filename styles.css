@@ -11,36 +11,35 @@
 /* 1. GLOBAL */
 
 body, html {
+  display: flex;
+  justify-content: center;
   margin: 0;
   padding: 0;
   width: 100%;
   background: #D5E1EF;
+
+  /* global typography */
+  font-family: 'Outfit';
+  font-style: normal;
+  font-weight: 300;
+  font-size: 15px;
+  text-align: center;
 }
 
 /* ========================================================================= */
 /* 2. TYPOGRAPHY */
 
 .title {
-  font-family: 'Outfit';
-  font-style: normal;
   font-weight: 600;
   font-size: 22px;
   line-height: 28px;
-  text-align: center;
-
   /* Dark Navy */
   color: #1F314F;
 }
 
 .description {
-  font-family: 'Outfit';
-  font-style: normal;
-  font-weight: 300;
-  font-size: 15px;
   line-height: 19px;
-  text-align: center;
   letter-spacing: 0.1875px;
-
   /* Grey */
   color: #7D889E;
 }
@@ -52,39 +51,40 @@ body, html {
   position: absolute;
   width: 320px;
   height: 497px;
-  left: 28px;
-  top: 85px;
+  margin-top: 85px;
   background: #FFFFFF;
   box-shadow: 0px 25px 25px rgba(0, 0, 0, 0.0476518);
   border-radius: 20px;
 }
 
-.qr-code {
-  position: relative;
-  height: 288px;
-  width: 288px;
-  border-radius: 10px;
-  margin: 1em 1em 0.3em 1em;
-  z-index: 1;
-}
+  .qr-code {
+    position: relative;
+    height: 288px;
+    width: 288px;
+    border-radius: 10px;
+    margin: 1em 1em 0.3em 1em;
+    z-index: 1;
+  }
 
-.text-box {
-  background-color: pink;
-  height: 129px;
-  width: 288px;
-  margin: 0 1em 40px 1em;
-  
-}
-.title {
-  height: 56px;
-  width: 288px;
-}
+  .text-box {
+    height: 129px;
+    width: 288px;
+    margin: 0 1em 40px 1em;
+  }
+    .title {
+      height: 56px;
+      width: 288px;
+    }
+    .description {
+      height: 57px;
+      width: 256px;
+      margin: auto;
+    }
 
-
-.description {
-  height: 57px;
-  width: 256px;
-  margin: auto;
+.attribution {
+  position: absolute;
+  width: 300px;
+  bottom: 1em;
 }
 /* ========================================================================= */
 /* 4. MEDIA QUERY */
